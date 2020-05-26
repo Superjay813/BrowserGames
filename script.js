@@ -10,37 +10,26 @@
 
       var app={
                 questions:[
-                          {q:'When did Hitler become the Chancellor of Germany?', options:['','30th January 1933','',''],answer:2},
-						  {q:'When did Germany and Italy form the Rome-Berlin Axis treaty?', options:['','','','25th October 1936'],answer:4},
-						  {q:'When did Germany and Japan sign the Anti-Comintern Pact?', options:['25th November 1936','','',''],answer:1},
-					      {q:'When did Japan invades China?', options:['','','','7th July 1937'],answer:4},
-						  {q:'When did Hitler annexes the country of Austria into Germany?', options:['12th March 1938','','',''],answer:1},
-						  {q:'When did Germany invades Poland, World War II begins?', options:['','1st September 1939','',''],answer:2},
-					      {q:'When did France and Britain declare war on Germany?', options:['','3rd September 1939','',''],answer:2},
-						  {q:'When did Germany invade and takes control of Denmark and Norway?', options:['','','April 9th to June 9th 1940',''],answer:3},
-						  {q:'When did Germany use blitzkrieg to take over the Netherlands, Belgium, and northern France?', options:['','','','10th of May to 22nd of June 1940'],answer:4},
-					      {q:'When did Winston Churchill become the Prime Minister of England?', options:['','','',''],answer:2},
-						  {q:'When did Italy enter the war as a member of the Axis?', options:['','','',''],answer:2},
-						  {q:'When did the Battle of Britain begin?', options:['','','',''],answer:2},
-					      {q:'When did Germany, Italy, and Japan sign the Tripartite Pact creating the Axis Alliance?', options:['','','',''],answer:2},
-						  {q:'When did Germany and the Axis Powers attack Russia?', options:['','','',''],answer:2},
-						  {q:'When did the Japanese attack the US Navy in Pearl Harbor?', options:['','','',''],answer:2},
-						  {q:'When did the US enter the war?', options:['','','',''],answer:2},
-					      {q:'When did the US Navy defeat the Japanese navy at the Battle of Midway?', options:['','','',''],answer:2},
-						  {q:'When did the Allies invade and take the island of Sicily?', options:['','','',''],answer:2},
-						  {q:'When did Italy surrenders to the Allies?', options:['','','',''],answer:2},
-					      {q:'When did D-day begin?', options:['','','',''],answer:2},
-						  {q:'When did Paris get liberated from German control?', options:['','','',''],answer:2},
-						  {q:'When did the Germans launch a large attack in the Battle of the Bulge?', options:['','','',''],answer:2},
-					      {q:'When did US Marines invade the island of Iwo Jima?', options:['','','',''],answer:2},
-						  {q:'When did US President Franklin Roosevelt die. He is succeeded by President Harry Truman?', options:['','','',''],answer:2},
-						  {q:'When did the US Third Army under General Patton cross the Rhine River?', options:['','','',''],answer:2},
-					      {q:'When did Adolf Hitler commit suicide as he knows Germany has lost the war?', options:['','','',''],answer:2},
-						  {q:'When did Germany surrenders to the Allies. ?', options:['','','',''],answer:2},
-					      {q:'When did the United States drops the Atomic Bomb on Hiroshima, Japan?', options:['','','',''],answer:2},
-						  {q:'When did another atomic bomb is dropped on Nagasaki, Japan?', options:['','','',''],answer:2},
-						  {q:'When did Japan surrender?', options:['','','',''],answer:2},
-						  
+                          {q:'What event triggered the start of World War II?', options:['Hitler came into power', 'Germany annexed Austria', 'Japan attacked Pearl Harbor','Germany attacked Poland'],answer:4},
+
+                          q:'What year did World War II begin??', options:['1933','1935','1939','1941'],answer:3},
+
+                          q:'What was the name of the air attack of Germany on Great Britain?', options:['Battle of Britain','D-Day','Battle of the Bulge','Battle of London'],answer:1},
+
+                          q:'What is another name for Operation Overlord or the amphibious landing in Normandy France?', options:['Battle of Normandy','D-Day','Battle of France','Battle of Britain'],answer:2},
+
+                          q:'When was Operation Overlord?', options:['12th October 1940','7th December 1941','7th May 1945','6th June 1944'],answer:4},
+
+                          q:'Why did the United States enter the war?', options:['When Germany invaded France','When Germany invaded Poland','When Japan attacked Pearl Harbor','When Britain and France declared war on Germany'],answer:3},
+
+                          q:'?', options:['','','',''],answer:},
+
+                          q:'?', options:['','','',''],answer:},
+
+                          q:'?', options:['','','',''],answer:},
+
+                          q:'?', options:['','','',''],answer:},
+
                           ],
                 index:0,
                 load:function(){
