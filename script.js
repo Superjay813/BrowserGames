@@ -12,23 +12,23 @@
                 questions:[
                           {q:'What event triggered the start of World War II?', options:['Hitler came into power', 'Germany annexed Austria', 'Japan attacked Pearl Harbor','Germany attacked Poland'],answer:4},
 
-                          q:'What year did World War II begin??', options:['1933','1935','1939','1941'],answer:3},
+                          {q:'What year did World War II begin??', options:['1933','1935','1939','1941'],answer:3},
 
-                          q:'What was the name of the air attack of Germany on Great Britain?', options:['Battle of Britain','D-Day','Battle of the Bulge','Battle of London'],answer:1},
+                          {q:'What was the name of the air attack of Germany on Great Britain?', options:['Battle of Britain','D-Day','Battle of the Bulge','Battle of London'],answer:1},
 
-                          q:'What is another name for Operation Overlord or the amphibious landing in Normandy France?', options:['Battle of Normandy','D-Day','Battle of France','Battle of Britain'],answer:2},
+                          {q:'What is another name for Operation Overlord or the amphibious landing in Normandy France?', options:['Battle of Normandy','D-Day','Battle of France','Battle of Britain'],answer:2},
 
-                          q:'When was Operation Overlord?', options:['12th October 1940','7th December 1941','7th May 1945','6th June 1944'],answer:4},
+                          {q:'When was Operation Overlord?', options:['12th October 1940','7th December 1941','7th May 1945','6th June 1944'],answer:4},
 
-                          q:'Why did the United States enter the war?', options:['When Germany invaded France','When Germany invaded Poland','When Japan attacked Pearl Harbor','When Britain and France declared war on Germany'],answer:3},
+                          {q:'Why did the United States enter the war?', options:['When Germany invaded France','When Germany invaded Poland','When Japan attacked Pearl Harbor','When Britain and France declared war on Germany'],answer:3},
 
-                          q:'?', options:['','','',''],answer:},
+                          {q:'?', options:['','','',''],answer:},
 
-                          q:'?', options:['','','',''],answer:},
+                          {q:'?', options:['','','',''],answer:},
 
-                          q:'?', options:['','','',''],answer:},
+                          {q:'?', options:['','','',''],answer:},
 
-                          q:'?', options:['','','',''],answer:},
+                          {q:'?', options:['','','',''],answer:},
 
                           ],
                 index:0,
