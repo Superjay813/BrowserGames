@@ -10,25 +10,26 @@
 
       var app={
                 questions:[
-                          {q:'What event triggered the start of WW2', options:['Hitler came into power','Germany annexed Austria','Japan attacked Pearl Harbor','Germany attacked Poland'],answer:4},
+                          {q:'What event triggered the start of World War II?', options:['Hitler came into power', 'Germany annexed Austria', 'Japan attacked Pearl Harbor','Germany attacked Poland'],answer:4},
 
-                          {q:'What year did World War II begin?',options:['1933','1935','1939','1941'],answer:3},
+                          {q:'What year did World War II begin??', options:['1933','1935','1939','1941'],answer:3},
 
-                          {q:'What is the name of the german air atack on Great Britain?',options:['Battle of Britain','D-Day','Battle of the Bulge','Battle of London'],answer:1},
+                          {q:'What was the name of the air attack of Germany on Great Britain?', options:['Battle of Britain','D-Day','Battle of the Bulge','Battle of London'],answer:1},
 
-                          {q:'What was the name of the Allied amphibious landing in southern France?',options:['D-Day','Invasion of France','Battle of Britain','Battle of the british channel'],answer:1},
+                          {q:'What is another name for Operation Overlord or the amphibious landing in Normandy France?', options:['Battle of Normandy','D-Day','Battle of France','Battle of Britain'],answer:2},
 
-                          {q:'What day was the invasion of Normandy or D-Day?',options:['30th September 1939','12th October 1940','7th December 1941','6th June 1944'],answer:4},
+                          {q:'When was Operation Overlord?', options:['12th October 1940','7th December 1941','7th May 1945','6th June 1944'],answer:4},
 
-                          {q:'What caused the United States to enter the war on the side of the Allies?', options:['When Germany invaded France','When Germany invaded Poland','When Japan attacked Pearl Harbor','When Britain and France declared war on Germany'],answer:3},
+                          {q:'Why did the United States enter the war?', options:['When Germany invaded France','When Germany invaded Poland','When Japan attacked Pearl Harbor','When Britain and France declared war on Germany'],answer:3},
 
-                          {q:'What date was the attack on Pearl Harbor?',options:['30th September 1939','7th December 1941','6th June 1944','7th May 1945'],answer:2},
+                          {q:'?', options:['','','',''],answer:},
 
-                          {q:'What Japanese city did the United State drop the atomic bomb on first?',options:['Hiroshima','Nagasaki','Tokyo','Osaka'],answer:1},
+                          {q:'?', options:['','','',''],answer:},
 
-                          {q:'What year did Hitler become leader of Germany?',options:['1929','1930','1933','1939'],answer:3},
+                          {q:'?', options:['','','',''],answer:},
 
-                          {q:'Who became president when Franklin D. Roosevelt died in 1945?',options:['Dwight D. Eisenhower','John F. Kennedy','Harry S. Truman','Herbert Hoover'],answer:3}
+                          {q:'?', options:['','','',''],answer:},
+
                           ],
                 index:0,
                 load:function(){
