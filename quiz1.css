@@ -46,6 +46,7 @@ h2{
 .quiz_wrapper .options{
 	float: left;
 	width: 100%;
+	font-size:20px;
 }
 
 .quiz_wrapper .options ul{
@@ -157,11 +158,12 @@ h2{
 #button4 {
 	background-image: linear-gradient(to bottom right, #00BFFF, #009ACD);
 	color: white;
-	padding: 16px 25px;
 	margin: 0 auto;
 	border: none;
 	cursor: pointer;
 	width: auto;
+	padding: 1%;
+	font-size: large;
 	border-radius: 8px;
 	display: block;
 	position: middle;
