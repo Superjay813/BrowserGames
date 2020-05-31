@@ -1,5 +1,7 @@
 body {
 	background-color: #0f0f0f;
+	zoom: 1.5; 
+	-moz-transform: scale(1.5);
 }
 
 #header {
