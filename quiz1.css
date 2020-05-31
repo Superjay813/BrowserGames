@@ -157,14 +157,14 @@ h2{
 #button4 {
 	background-image: linear-gradient(to bottom right, #00BFFF, #009ACD);
 	color: white;
-	border: 0px;
-	border-radius: 10%;
-	width: 5%;
-	height: 35px;
-	margin-left: 47.5%;
-	margin-right: 47.5%;
+	padding: 16px 25px;
+	margin: 0 auto;
+	border: none;
 	cursor: pointer;
-	font-size: large;
+	width: auto;
+	border-radius: 8px;
+	display: block;
+	position: middle;
 }
 
 a {
