@@ -161,13 +161,10 @@ h2{
 	margin: 0 auto;
 	border: none;
 	cursor: pointer;
-	width: 4%;
 	padding: 1%;
 	font-size: 25px;
 	border-radius: 8px;
 	display: block;
-	margin-left: 48%;
-	margin-right: 48%;
 }
 
 a {
