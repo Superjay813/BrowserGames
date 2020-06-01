@@ -136,35 +136,9 @@ h2{
 #button1 {
 	background-image: linear-gradient(to bottom right, #00BFFF, #009ACD);
 	border: 0px;
-	color: white;
-	width: 250px;
-}
-
-#button2 {
-	background-color: #009ACD;
-	border: 0px;
-	color: white;
-	width: 250px;
-}
-
-#button3 {
-	background-image: linear-gradient(to bottom right, #00BFFF, #009ACD);
-	border: 0px;
-	color: white;
-	width: 250px;
 	height: 300px;
-}
-
-#button4 {
-	background: none;
-	color: #009ACD;
-	margin: 0 auto;
-	border: none;
-	cursor: pointer;
-	padding: 1%;
-	font-size: 25px;
-	border-radius: 8px;
-	display: block;
+	color: white;
+	width: 250px;
 }
 
 a {
@@ -180,6 +154,7 @@ a {
 table {
 	margin-left:auto;
 	margin-right:auto;
+	border-spacing: 10px;
 }
 
 
