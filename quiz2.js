@@ -9,11 +9,22 @@ var op4=document.getElementById('op4');
 
       var app={
                 questions:[
-                          {q:'What event triggered the start of WW1', options:['The assasination of President Woodrow Wilson','The assasination of Archduke Franz Ferdinand','The assasination of Prime Minister David Lloyd George','The assasination of Kaiser Wilhelm II'],answer:2},
+                          {q:'What event triggered the start of WW1? The assasination', options:['Of President Wilson','Of Archduke Franz Ferdinand','Of Prime Minister Lloyd George','Of Kaiser Wilhelm II'],answer:2},
+
+
+                          {q:'Who was Archduke Franz Ferdinand?', options:['The leader of Germanys armed forces','The future Tsar of Russia','The heir to the throne of Austria-Hungary','The British ambassador to Germany'],answer:3},
 
 
                           {q:'What year did WW1 begin?',options:['1914','1939','1918','1908'],answer:1},
 
+
+                          {q:'What year did WW1 end?',options:['1914','1939','1918','1908'],answer:3},
+
+
+                          {q:'Which countrys were in the Triple Alliance?',options:['Germany, Serbia, and Italy.','Germany, USSR, and Italy.','Germany, Austria-Hungary, and Italy.','Germany, Austria-Hungary, and Russia.'],answer:3},
+
+
+                          {q:'Which country in the Tripple Alliance had a secret non aggresion pact with France?',options:['Germany.','Italy.','Austria-Hungary.','None.'],answer:3},
 
                           ],
 
