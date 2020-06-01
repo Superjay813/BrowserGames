@@ -9,31 +9,35 @@ var op4=document.getElementById('op4');
 
       var app={
                 questions:[
-                          {q:'What event triggered the start of WW1? The assasination', options:['Of President Wilson','Of Archduke Franz Ferdinand','Of Prime Minister Lloyd George','Of Kaiser Wilhelm II'],answer:2},
+                          {q:'What event triggered the start of WW2', options:['Hitler came into power','Germany annexed Austria','Japan attacked Pearl Harbor','Germany attacked Poland'],answer:4},
 
 
-                          {q:'Who was Archduke Franz Ferdinand?', options:['The leader of Germanys armed forces','The future Tsar of Russia','The heir to the throne of Austria-Hungary','The British ambassador to Germany'],answer:3},
+                          {q:'What year did World War II begin?',options:['1933','1935','1939','1941'],answer:3},
 
 
-                          {q:'What year did WW1 begin?',options:['1914','1939','1918','1908'],answer:1},
+                          {q:'What is the name of the german air atack on Great Britain?',options:['Battle of Britain','D-Day','Battle of the Bulge','Battle of London'],answer:1},
 
 
-                          {q:'What year did WW1 end?',options:['1914','1939','1918','1908'],answer:3},
+                          {q:'What was the name of the Allied amphibious landing in southern France?',options:['D-Day','Invasion of France','Battle of Britain','Battle of the british channel'],answer:1},
 
 
-                          {q:'Which countrys were in the Triple Alliance?',options:['Germany, Serbia, and Italy.','Germany, USSR, and Italy.','Germany, Austria-Hungary, and Italy.','Germany, Austria-Hungary, and Russia.'],answer:3},
+                          {q:'What day was the invasion of Normandy or D-Day?',options:['30th September 1939','12th October 1940','7th December 1941','6th June 1944'],answer:4},
 
 
-                          {q:'Which countrys were in the Triple Alliance?',options:['France and England.','Russia, France and Britain.','Russia, France and America.','Italy, France and Britain.'],answer:2},
+                          {q:'What caused the United States to enter the war on the side of the Allies?', options:['When Germany invaded France','When Germany invaded Poland','When Japan attacked Pearl Harbor','When Britain and France declared war on Germany'],answer:3},
 
 
-                          {q:'Which country in the Tripple Alliance had a secret non aggresion pact with France?',options:['Germany.','Italy.','Austria-Hungary.','None.'],answer:3},
+                          {q:'What date was the attack on Pearl Harbor?',options:['30th September 1939','7th December 1941','6th June 1944','7th May 1945'],answer:2},
 
 
-                          {q:'Which of these weapons was new in WW1?',options:['Poision Gas.','Cannon.','Grenades.','Atomic Bomb.'],answer:1},
+                          {q:'What Japanese city did the United State drop the atomic bomb on first?',options:['Hiroshima','Nagasaki','Tokyo','Osaka'],answer:1},
 
 
-                          {q:'Which of these happend because of WW1?',options:['Ecenomic Growth.','The rise of Facism in Germany.','The Start Of Slavery.','Everlasting Peace.'],answer:2},
+                          {q:'What year did Hitler become leader of Germany?',options:['1929','1930','1933','1939'],answer:3},
+
+
+                          {q:'Who became president when Franklin D. Roosevelt died in 1945?',options:['Dwight D. Eisenhower','John F. Kennedy','Harry S. Truman','Herbert Hoover'],answer:3}
+
                           ],
 
                 index:0,
