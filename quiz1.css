@@ -141,6 +141,14 @@ h2{
 	width: 250px;
 }
 
+#button2 {
+	background-image: linear-gradient(to bottom right, #00BFFF, #009ACD);
+	color: white;
+	border: none;
+	padding: 20px;
+	font-size: large;
+}
+
 a {
 	color: white;
 	text-decoration: none;
