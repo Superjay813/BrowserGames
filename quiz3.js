@@ -9,34 +9,34 @@ var op4=document.getElementById('op4');
 
       var app={
                 questions:[
-                          {q:'What event triggered the start of WW2', options:['Hitler came into power','Germany annexed Austria','Japan attacked Pearl Harbor','Germany attacked Poland'],answer:4},
+                          {q:'Which of these can NOT be crafted into armor?', options:['Iron','Leather','Diamond','Wood'],answer:4},
 
 
-                          {q:'What year did World War II begin?',options:['1933','1935','1939','1941'],answer:3},
+                          {q:'How do you make a large chest?',options:['Place two chests next to each other','Place one chest on top of another','Craft it by placing two chests next to each other in your workbench','Use twice as much wood in the workbench'],answer:1},
 
 
-                          {q:'What is the name of the german air atack on Great Britain?',options:['Battle of Britain','D-Day','Battle of the Bulge','Battle of London'],answer:1},
+                          {q:'Which of these can be used as fuel for your furnace?',options:['All of these','Charcoal','Bucket of Lava','Coal'],answer:1},
 
 
-                          {q:'What was the name of the Allied amphibious landing in southern France?',options:['D-Day','Invasion of France','Battle of Britain','Battle of the british channel'],answer:1},
+                          {q:'Which tool must you use to mine stone and ores?',options:['Pickaxe','Hoe','Shovel','Axe'],answer:1},
 
 
-                          {q:'What day was the invasion of Normandy or D-Day?',options:['30th September 1939','12th October 1940','7th December 1941','6th June 1944'],answer:4},
+                          {q:'Which two blocks are affected by gravity?',options:['Sand and Dirt','Sand and Gravel','Dirt and Gravel','Gravel and Wood'],answer:2},
 
 
-                          {q:'What caused the United States to enter the war on the side of the Allies?', options:['When Germany invaded France','When Germany invaded Poland','When Japan attacked Pearl Harbor','When Britain and France declared war on Germany'],answer:3},
+                          {q:'What must you use to collect water and lava?', options:['Cup','Bowl','Bucket','cauldron'],answer:3},
 
 
-                          {q:'What date was the attack on Pearl Harbor?',options:['30th September 1939','7th December 1941','6th June 1944','7th May 1945'],answer:2},
+                          {q:'What block or blocks are formed when water meets lava (in any circumstance)?',options:['Dirt and Obsidian','Just Obsidian','Cobblestone and Dirt','Obsidian, Cobblestone and Stone'],answer:4},
 
 
-                          {q:'What Japanese city did the United State drop the atomic bomb on first?',options:['Hiroshima','Nagasaki','Tokyo','Osaka'],answer:1},
+                          {q:'How many blocks of iron ore does it take to make one iron ingot?',options:['One','Eight','Four','Two'],answer:1},
 
 
-                          {q:'What year did Hitler become leader of Germany?',options:['1929','1930','1933','1939'],answer:3},
+                          {q:'Which of these is the name of an alternate world to which you can travel?',options:['The Nether','Hell','The Void','The Under'],answer:1},
 
 
-                          {q:'Who became president when Franklin D. Roosevelt died in 1945?',options:['Dwight D. Eisenhower','John F. Kennedy','Harry S. Truman','Herbert Hoover'],answer:3}
+                          {q:'Skeletons drop bones, and pigs drop pork chops. What do zombies drop?',options:['Brains','Rotten Flesh','Nothing','Bones'],answer:2}
 
                           ],
 

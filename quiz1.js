@@ -9,7 +9,7 @@ var op4=document.getElementById('op4');
 
       var app={
                 questions:[
-                          {q:'What event triggered the start of WW2', options:['Hitler came into power','Germany annexed Austria','Japan attacked Pearl Harbor','Germany attacked Poland'],answer:4},
+                          {q:'What event triggered the start of WW2?', options:['Hitler came into power','Germany annexed Austria','Japan attacked Pearl Harbor','Germany attacked Poland'],answer:4},
 
 
                           {q:'What year did World War II begin?',options:['1933','1935','1939','1941'],answer:3},
