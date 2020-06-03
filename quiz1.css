@@ -135,7 +135,7 @@ h2{
 
 #button1 {
 	background-image: linear-gradient(to bottom right, #00BFFF, #009ACD);
-	border: 0px;
+	border: none;
 	height: 300px;
 	color: white;
 	width: 250px;
@@ -154,6 +154,7 @@ h2{
 a {
 	color: white;
 	text-decoration: none;
+	border: none;
 }
 
 #all {
