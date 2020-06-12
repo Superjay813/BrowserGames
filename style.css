@@ -8,7 +8,6 @@ body {
     color: white;
     text-align: center;
     padding: 10px;
-    width: 100%;
 }
 
 #button1 {
@@ -49,4 +48,17 @@ h2 {
 
 a {
     text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    background-color: #0099E6;
+    padding: 5px;
+    color: white;
+}
+
+marquee {
+    background-color: #0088cc;
+    color: white;
+    padding: 10px;
 }
