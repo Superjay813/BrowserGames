@@ -16,7 +16,6 @@ body {
 	color: white;
 	width: 250px;
     height: 150px;
-    cursor: pointer;
 }
 
 #button2 {
@@ -43,7 +42,7 @@ table {
 
 h2 {
     color: grey;
-    margin: 10px;
+    padding-left: 20px;
 }
 
 a {
