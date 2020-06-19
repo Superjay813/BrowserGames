@@ -29,6 +29,15 @@ body {
     cursor: pointer;
 }
 
+#button3 {
+    background-color: #0099E6;
+    color: white;
+    border: none;
+    width: 5%;
+    height: 50px;
+    margin-left: 20px;
+}
+
 #img {
 	height: 150px;
 	width: 150px;
@@ -54,3 +63,12 @@ a {
     color: white;
     padding: 10px;
 }
+
+footer {
+    bottom:0;
+    background: #0099E6;
+    margin: 0px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+ }
