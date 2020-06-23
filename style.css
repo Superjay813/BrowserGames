@@ -40,6 +40,18 @@ body {
     cursor: pointer;
 }
 
+#button1:hover {
+    background-color: #0088cc;
+ }
+
+ #button2:hover {
+    background-color: #e6e6e6;
+ }
+
+ #button3:hover {
+    background-color: #0088cc;
+ }
+
 #img {
 	height: 150px;
 	width: 150px;
