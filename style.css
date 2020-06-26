@@ -33,10 +33,10 @@ body {
     background-color: #0099E6;
     color: white;
     border: none;
-    width: 10%;
-    height: 50px;
-    margin-left:45%;
-    margin-right:45%;
+    width: 15%;
+    height: 75px;
+    margin-left:42.5%;
+    margin-right:42.5%;
     cursor: pointer;
 }
 
@@ -105,10 +105,7 @@ footer {
   }
   
   .content {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    background-color: #f1f1f1;
+
   }
 
 .topnav li a{
@@ -121,10 +118,16 @@ footer {
     text-align: center;
     padding: 10px;
     font-size: large;
+
 }
 
 .topnav {
       background-color: #0099E6;
+      padding: 0px 0px;
+      display: none;
+      overflow: hidden;
+      width: 100%;
+      padding-left: 0px;
   }
 
   .topnav a:hover {
