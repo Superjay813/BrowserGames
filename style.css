@@ -16,6 +16,7 @@ body {
 	color: white;
 	width: 250px;
     height: 300px;
+    border-radius: 05%;
 }
 
 #button2 {
@@ -99,7 +100,11 @@ footer {
     outline: none;
     padding-left: 20px;
   }
-  
+ 
+.collapsible:hover {
+    background-color: #0077b3;
+}
+
   .content {
 
   }
@@ -107,6 +112,11 @@ footer {
 .topnav li a{
       color: white;
       padding: 10px;
+}
+
+#navsub {
+    color: #e6e6e6;
+    text-decoration: underline;
 }
 
 .topnav li {

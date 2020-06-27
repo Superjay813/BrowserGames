@@ -1,7 +1,6 @@
 body {
     margin: 0px;
     background-color: #f1f1f1;
-    zoom: 100%;
 }
 
 #header {
@@ -17,6 +16,7 @@ body {
 	color: white;
 	width: 250px;
     height: 300px;
+    border-radius: 05%;
 }
 
 #button2 {
