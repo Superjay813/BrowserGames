@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     background-color: #f1f1f1;
+    zoom: 150%;
 }
 
 #header {
@@ -91,7 +92,3 @@ footer {
     padding: 10px;
     color: white;
  }
-
- #my{
-    zoom: 150%;
-}
