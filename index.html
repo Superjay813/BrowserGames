@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AwaE</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    </head>
+    <body>
+        <div id="header">
+            <h1>Welcome to the AwaE fanpage!</h1>
+        </div>
+        <div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </div>   
+        <div id="subheading">
+            <h2>Charecter cards - <a href=".html">View More</a></h2>
+            <hr>
+        </div>
+        <div class="row">
+        <div class="col-1">
+        </div>
+        <div class="col-10">
+        <div class="row">
+        <div class="col-3">
+        <div class="card">
+            <img src="http://cdn.newsapi.com.au/image/v1/external?url=http%3A%2F%2Fcontent6.video.news.com.au%2FluMG83YjE6gsQpKg7zNOt42RGi6ssooa%2Fpromo319178518&width=650&api_key=kq7wnrk4eun47vz9c5xuj3mc">
+            <h2>Anne Shirley Cuthbert</h2>
+            <p>Age: <br>House: <br>Occupation:<span id="dots"></span><span id="more"><br>Friends: <br>Enemies: </span></p>
+            <button onclick="myFunction()" id="myBtn">More</button>
+        </div>
+        </div>
+
+        <div class="col-3">
+        <div class="card">
+            <img src="https://www.cbc.ca/anne/content/images/ANNE105preview_spellingbee.jpg">
+            <h2>Gilbert Blythe</h2>
+            <p>Age:</p>
+        </div>
+        </div>
+
+        <div class="col-3">
+            <div class="card">
+                <img src="https://www.cbc.ca/anne/content/images/ANNE105preview_spellingbee.jpg">
+                <h2>Gilbert Blythe</h2>
+                <p>Age:</p>
+            </div>
+            </div>
+
+        <div class="col-3">
+        <div class="card">
+            <img src="https://cheesecake.articleassets.meaww.com/18879/uploads/8512d054-7168-408b-ad83-e764191bf34e_800_420.jpeg">
+            <h2>Diana Barry</h2>
+            <p>Age:</p>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <script>
+        function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "More"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Less"; 
+    moreText.style.display = "inline";
+  }
+}
+        </script>
+    </body>
+</html>
