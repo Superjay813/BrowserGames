@@ -47,10 +47,12 @@ li a:hover {
 
 #subheading a {
     color: #04507b;
+    text-decoration: none;
 }
 
 #subheading a:hover {
-    color: #0066ff;
+    color: #0570ad;
+    text-decoration: underline;
 }
 
 *{
@@ -59,7 +61,6 @@ li a:hover {
 }
 
 .main{
-   
     margin: 2%;
 }
    
@@ -68,7 +69,7 @@ li a:hover {
     display: inline-block;
     box-shadow: 2px 2px 20px black;
     border-radius: 5px; 
-    margin: 2%;
+    margin-left: 4%;
 }
    
 .image img{
@@ -89,7 +90,6 @@ h1{
    
 .des{
     padding: 3px;
-    padding-top: 10px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     margin: 20px;
@@ -104,4 +104,44 @@ h1{
     border: none;
     font-weight: bold;
     font-size: large;
+    margin-top: 10px;
+}
+
+#myBtn a{
+    text-decoration: none;
+    color: white;
+}
+
+#myBtn a:hover{
+    text-decoration: underline;
+    color: lightgrey;
+}
+
+.des2{
+    padding: 3px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+}
+  
+#myBtn2 {
+    background-color: #055a8c;
+    width: 50%;
+    color: white;
+    padding: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#myBtn2 a{
+    text-decoration: none;
+    color: white;
+}
+
+#myBtn2 a:hover{
+    text-decoration: underline;
+    color: lightgrey;
 }
