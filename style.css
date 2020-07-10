@@ -105,16 +105,16 @@ h2{
     font-weight: bold;
     font-size: large;
     margin-top: 10px;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background-color: #04507b;
 }
 
 #myBtn a{
     text-decoration: none;
     color: white;
-}
-
-#myBtn a:hover{
-    text-decoration: underline;
-    color: lightgrey;
 }
 
 .des2{
@@ -134,14 +134,14 @@ h2{
     font-size: large;
     margin-top: 10px;
     margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#myBtn2:hover {
+    background-color: #04507b;
 }
 
 #myBtn2 a{
     text-decoration: none;
     color: white;
-}
-
-#myBtn2 a:hover{
-    text-decoration: underline;
-    color: lightgrey;
 }
