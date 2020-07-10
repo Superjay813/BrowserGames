@@ -70,6 +70,7 @@ li a:hover {
     box-shadow: 2px 2px 20px black;
     border-radius: 5px; 
     margin-left: 4%;
+    background-color: white;
 }
    
 .image img{
@@ -84,6 +85,13 @@ li a:hover {
     height: 200px;
     margin-left: 20%;
     margin-right: 20%;
+}
+
+#img3 {
+    width: 99%;
+    height: 200px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
 }
 
 .title{ 
@@ -122,6 +130,11 @@ h2{
 #myBtn a{
     text-decoration: none;
     color: white;
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
 }
 
 .des2{
