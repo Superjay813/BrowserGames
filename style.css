@@ -104,6 +104,13 @@ li a:hover {
     height: 300px;
 }
 
+#imgplus {
+    width: 99%;
+    height: 200px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
 .title{ 
     text-align: center;
     padding: 10px; 
