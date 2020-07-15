@@ -21,22 +21,22 @@ var op4=document.getElementById('op4');
                           {q:'Who plays Matthew Cuthbert?',options:['Robert Homes Thomson','Robert Holmes Thomas','Robert Holmes Thomson','Robert Holms Thomas'],answer:3},
 
 
-                          {q:'Who plays Marilla Cuthbert?',options:['Geraldine James','1935','1939','1941'],answer:1},
+                          {q:'Who plays Marilla Cuthbert?',options:['Geraldine James','Geralldine James','Gerraldine James','Gerralldine James'],answer:1},
 
 
-                          {q:'Who plays Rachel Lynde?',options:['1933','1935','1939','Corrine Koslo'],answer:4},
+                          {q:'Who plays Rachel Lynde?',options:['Corrone Koslo','Corine Koslo','Corrine Koso','Corrine Koslo'],answer:4},
 
 
-                          {q:'Who plays Jerry Baynard?',options:['1933','1935','Aymeric Jett Montaz','1941'],answer:3},
+                          {q:'Who plays Jerry Baynard?',options:['Ayymeric Montaz','Aymeric Muntaz','Aymeric Montaz','Aymeric Montas'],answer:3},
 
 
-                          {q:'Who plays Sebastian "Bash"?',options:['Dalmar Abuzeid','1935','1939','1941'],answer:1},
+                          {q:'Who plays Sebastian "Bash"?',options:['Dalmar Abuzeid','Dallmar Abuzeid','Dalmar Abbuzeid','Dalmarr Abuzeid'],answer:1},
 
 
-                          {q:'Who plays Cole Mackenzie?',options:['1933','Cory Andrew','1939','1941'],answer:2},
+                          {q:'Who plays Cole Mackenzie?',options:['Corry Anndrew','Cory Andrew','Corry Andrew','Cory Anddrew'],answer:2},
 
 
-                          {q:'Who plays Miss Stacy?',options:['Joanna Douglas','1935','1939','1941'],answer:1},
+                          {q:'Who plays Miss Stacy?',options:['Joanna Douglas','Josephine Dougllas','Josephine Dougglas','Josephine Doouglas'],answer:1},
 
 
                           ],
