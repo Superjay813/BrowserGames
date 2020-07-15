@@ -9,52 +9,35 @@ var op4=document.getElementById('op4');
 
       var app={
                 questions:[
-                          {q:'Who plays Anne Cuthbert?', options:['Amybeth McDonald','Germany annexed Austria','ss','Amybeth McNulty'],answer:3},
+                          {q:'Who plays Anne Cuthbert?', options:['Amybeth McDonald','Amybeth McNultie','Amybeth McNully','Amybeth McNulty'],answer:4},
 
 
-                          {q:'Who plays Gilbert Blythe?',options:['1933','1935','1939','1941'],answer:3},
+                          {q:'Who plays Gilbert Blythe?',options:['Lucas Jade Zuma','Lucas Jade Zumann','Lucas Jade Zuman','Lucas Jade Zunann'],answer:2},
 
 
-                          {q:'Who plays Diana Barry?',options:['1933','1935','1939','1941'],answer:3},
+                          {q:'Who plays Diana Barry?',options:['Diana Bela','Dalla Bela','Dalila Bella','Dalila Bela'],answer:4},
 
 
-                          {q:'Who plays Matthew Cuthbert?',options:['1933','1935','1939','1941'],answer:3},
+                          {q:'Who plays Matthew Cuthbert?',options:['Robert Homes Thomson','Robert Holmes Thomas','Robert Holmes Thomson','Robert Holms Thomas'],answer:3},
 
 
-                          {q:'Who plays Marilla Cuthbert?',options:['1933','1935','1939','1941'],answer:3},
+                          {q:'Who plays Marilla Cuthbert?',options:['Geraldine James','1935','1939','1941'],answer:1},
 
 
-                          {q:'Who plays Rachel Lynde?',options:['1933','1935','1939','1941'],answer:3},
+                          {q:'Who plays Rachel Lynde?',options:['1933','1935','1939','Corrine Koslo'],answer:4},
 
 
-                          {q:'Who plays Jerry Baynard?',options:['1933','1935','1939','1941'],answer:3},
+                          {q:'Who plays Jerry Baynard?',options:['1933','1935','Aymeric Jett Montaz','1941'],answer:3},
 
 
-                          {q:'Who plays Sebastian "Bash"?',options:['1933','1935','1939','1941'],answer:3},
+                          {q:'Who plays Sebastian "Bash"?',options:['Dalmar Abuzeid','1935','1939','1941'],answer:1},
 
 
-                          {q:'Who plays Cole Mackenzie?',options:['1933','1935','1939','1941'],answer:3},
+                          {q:'Who plays Cole Mackenzie?',options:['1933','Cory Andrew','1939','1941'],answer:2},
 
 
-                          {q:'Who plays Miss Stacy?',options:['1933','1935','1939','1941'],answer:3},
+                          {q:'Who plays Miss Stacy?',options:['Joanna Douglas','1935','1939','1941'],answer:1},
 
-
-                          {q:'Who plays Billy Andrews?',options:['1933','1935','1939','1941'],answer:3},
-
-
-                          {q:'Who plays Prissy Andrews?',options:['1933','1935','1939','1941'],answer:3},
-
-
-                          {q:'Who plays Mr Phillips?',options:['1933','1935','1939','1941'],answer:3},
-
-
-                          {q:'Who plays Josie Pye?',options:['1933','1935','1939','1941'],answer:3},
-
-
-                          {q:'Who plays Tillie Boulter?',options:['1933','1935','1939','1941'],answer:3},
-
-
-                          {q:'Who plays Mary Lacroix?',options:['1933','1935','1939','1941'],answer:3},
 
                           ],
 
@@ -70,7 +53,7 @@ var op4=document.getElementById('op4');
                         }
 
                         else{
-                        quizBox.innerHTML="Welldone You Have Completed this Quiz! Click Below for more or to get back to home."      
+                        quizBox.innerHTML="Welldone You Have Completed this Quiz!"      
                         op1.style.display="none";
                         op2.style.display="none";
                         op3.style.display="none";
@@ -95,7 +78,7 @@ var op4=document.getElementById('op4');
 
                          else{
                          	ele.className="wrong";
-                         	ele.innerHTML="Wrong";
+                         	ele.innerHTML="Inorrect";
                          }
                 },
                 notClickAble:function(){
