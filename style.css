@@ -178,3 +178,18 @@ h2{
     color: white;
 }
 /* button end */
+
+#footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #055a8c;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+
+ #charlink {
+     color: blue;
+ }
