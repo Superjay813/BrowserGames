@@ -69,6 +69,26 @@ li a:hover {
     background-color: white;
 }
  
+.card2{
+    width: 30%;
+    display: inline-block;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px; 
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: white;
+}
+
+.card3{
+    width: 70%;
+    display: inline-block;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px; 
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+}
+
 /* image */
 
 .image img{
@@ -109,6 +129,10 @@ li a:hover {
     margin-right: 0.5%;
 }
 
+#centertext {
+    text-align: center;
+}
+
 /* image end */
 
 .title{ 
@@ -129,6 +153,13 @@ h2{
 
 .des2{
     padding: 3px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+}
+
+.des3 {
+    padding: 10px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     text-align: center;
