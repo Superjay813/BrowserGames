@@ -89,6 +89,10 @@ li a:hover {
     background-color: white;
 }
 
+.card3, .card2 p{
+    text-align: center;
+}
+
 /* image */
 
 .image img{
@@ -219,9 +223,56 @@ h2{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-top: 25px;
  }
 
  #charlink {
      color: blue;
      text-decoration: none;
  }
+
+ #myInput {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+  
+  #myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+  }
+  
+  #myUL li a:hover:not(.header) {
+    background-color: #eee;
+  }
+
+  #bt {
+      background-color: #04507b;
+      border: none;
+      color: white;
+      font-size: 24px;
+      text-emphasis: bold;
+      padding: 5px;
+      text-decoration: none;
+  }
+
+#bt:hover {
+    color: lightgray;
+}

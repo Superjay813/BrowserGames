@@ -6,6 +6,7 @@
       <link rel="icon" href="favicon.ico" type="image/x-icon"/>
       <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
       <meta name="viewport" content="user-scalable=no">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     </head>
     <body>
         <div id="header">
@@ -13,12 +14,23 @@
         </div>
         <div>
             <ul>
-                <li><a></a></li>
+                <li><input type="button" value="Search" id="bt" onclick="toggle(this)"></li>
             </ul>
         </div>
+<!-- shearch  -->
 
+    <!--The DIV element to toggle visibility. Its "display" property is set as "none". -->
+    <div style="border:solid 1px #ddd; padding:10px; display:none;" id="cont">
+      <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+      <ul id="myUL">
+        <li><a href="#Awae">Awae/Anne with an E</a></li>
+      </ul>
+    </div>
+
+
+<!-- shearch end -->
         <div id="subheading">
-          <h1 id="">Welcome to MOFO!</h1>
+          <h2 id="about.html">About MOFO - <a href="about.html">Visit</a></h2>
           <hr>
         </div>
         <div class="card2">
@@ -27,7 +39,8 @@
             <img src="logo.png">
           </div>
           <div class="des3">
-            <p>Welcome to MOFO ive created this website for a friend who is CRAZY for Awae! This originally was going to just be and Awae fanpage but now i want to expand it! To all the major movies and TV shows and maybe even YouTube series`s in the future!</p>
+            <h2>Introduction</h2>
+            <p>I want to put information in a simplistic way straight to the point so you don't have to browse through paragraphs of writing to find the fact you wanted.<br><br> but it doesn't end there you can test your knowledge with a quiz or scroll the best memes from the web.</p>
             <a href="about.html"><button id="myBtn2">More</button></a>
           </div>
           </div>
@@ -95,5 +108,134 @@
 <button id="myBtn2"><a href="AWAEmeme.html">Memes</a></button>
 </div>
 </div>
+<br>
+<!--
+<div id="subheading">
+  <h2 id="reviews">Conan Without Borders - Coming Soon</h2>
+  <hr>
+</div>
+<div class="main">
+  
+  <div class="card">
+  
+    <div class="image">
+      <img src="MORE.png">
+    </div>
+    <div class="title">
+    <h2>More<br>Conan</h2>
+    </div>
+    <div class="des2">
+    <a href=".html"><button id="myBtn2">More</button></a>
+    </div>
+    </div>
+
+<div class="card">
+
+<div class="image">
+  <img src="INFO.png">
+</div>
+<div class="title">
+<h2>???<br>Info</h2>
+</div>
+<div class="des2">
+<a href=".html"><button id="myBtn2">Info</button></a>
+</div>
+</div>
+
+<div class="card">
+
+  <div class="image">
+    <img src="QUIZ.png">
+  </div>
+  <div class="title">
+  <h2>AwaE<br>Quiz</h2>
+  </div>
+  <div class="des2">
+  <button id="myBtn2"><a href=".html">Quizes</a></button>
+  </div>
+  </div>
+  
+
+<div class="card">
+
+<div class="image">
+  <img id=""src="MEMES.png">
+</div>
+<div class="title">
+<h2>Awae<br>Memes</h2>
+</div>
+<div class="des2">
+<button id="myBtn2"><a href=".html">Memes</a></button>
+</div>
+</div>
+
+<br>
+<div id="subheading">
+  <h2 id="reviews">Sideman Tinder - Coming Soon</h2>
+  <hr>
+</div>
+<div class="main">
+  
+  <div class="card">
+  
+    <div class="image">
+      <img src="MORE.png">
+    </div>
+    <div class="title">
+    <h2>More<br>Conan</h2>
+    </div>
+    <div class="des2">
+    <a href=".html"><button id="myBtn2">More</button></a>
+    </div>
+    </div>
+
+
+<div class="card">
+
+<div class="image">
+  <img src="INFO.png">
+</div>
+<div class="title">
+<h2>???<br>Info</h2>
+</div>
+<div class="des2">
+<a href=".html"><button id="myBtn2">Info</button></a>
+</div>
+</div>
+
+
+<div class="card">
+
+  <div class="image">
+    <img src="QUIZ.png">
+  </div>
+  <div class="title">
+  <h2>AwaE<br>Quiz</h2>
+  </div>
+  <div class="des2">
+  <button id="myBtn2"><a href=".html">Quizes</a></button>
+  </div>
+  </div>
+  
+
+
+<div class="card">
+
+<div class="image">
+  <img id=""src="MEMES.png">
+</div>
+<div class="title">
+<h2>Awae<br>Memes</h2>
+</div>
+<div class="des2">
+<button id="myBtn2"><a href=".html">Memes</a></button>
+</div>
+</div>
+-->
+<div id="footer">
+  <h2><b>MOFO</b></h2>
+</div>
+<script src="search.js"></script>
+<script src="show.js"></script>
     </body>
 </html>
