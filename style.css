@@ -80,12 +80,12 @@ li a:hover {
 }
 
 .card3{
-    width: 70%;
+    width: 80%;
     display: inline-block;
     box-shadow: 2px 2px 20px black;
     border-radius: 5px; 
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
     background-color: white;
 }
 
@@ -181,6 +181,7 @@ h2{
     margin-top: 10px;
     margin-bottom: 10px;
     cursor: pointer;
+    transform: skew(-20deg);
 }
 
 #myBtn2:hover {
@@ -202,6 +203,7 @@ h2{
     font-size: large;
     margin-top: 10px;
     cursor: pointer;
+    transform: skew(-20deg);
 }
 
 #myBtn:hover {
@@ -252,11 +254,10 @@ h2{
     border: 1px solid #ddd;
     margin-top: -1px; /* Prevent double borders */
     background-color: #f6f6f6;
-    padding: 12px;
     text-decoration: none;
     font-size: 18px;
     color: black;
-    display: block
+    display: block;
   }
   
   #myUL li a:hover:not(.header) {
@@ -276,3 +277,4 @@ h2{
 #bt:hover {
     color: lightgray;
 }
+
