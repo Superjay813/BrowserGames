@@ -18,8 +18,11 @@ var op4=document.getElementById('op4');
                           {q:'Whats her adoptive mothers name?',options:['Marilla Cuthbert','Marley Cuthbert','May Cuthbert','Lucy Cuthbert'],answer:1},
 
 
-                          {q:'Whats her adoptive mothers name?',options:['be a writer','be a farmer','be a teacher','be a docter'],answer:3},
-                          ],
+                          {q:'Whats her adoptive fathers name?',options:['','Matthew Cuthbert','','Matteo Cuthbert'],answer:2},
+                          
+                          {q:'Where does Anne go to college?',options:['Queens Academy','University of Avonlea','University of Toronto','Avonlea school'],answer:1},
+
+                        ],
 
                 index:0,
                 load:function(){
@@ -34,6 +37,8 @@ var op4=document.getElementById('op4');
 
                         else{
                         quizBox.innerHTML="Welldone You Have Completed this Quiz!"      
+                        var audio = new Audio('finish.mp3');
+                        audio.play();   
                         op1.style.display="none";
                         op2.style.display="none";
                         op3.style.display="none";
@@ -53,12 +58,16 @@ var op4=document.getElementById('op4');
                          	this.score++;
                          	ele.className="correct";
                          	ele.innerHTML="Correct";
-                         	this.scoreCard();
+                           this.scoreCard();
+                           var audio = new Audio('correct.mp3');
+                           audio.play();
                          }
 
                          else{
                          	ele.className="wrong";
-                         	ele.innerHTML="Inorrect";
+                           ele.innerHTML="Inorrect";
+                           var audio = new Audio('incorrect.mp3');
+                           audio.play();
                          }
                 },
                 notClickAble:function(){

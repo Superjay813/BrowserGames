@@ -53,7 +53,9 @@ var op4=document.getElementById('op4');
                         }
 
                         else{
-                        quizBox.innerHTML="Welldone You Have Completed this Quiz!"      
+                        quizBox.innerHTML="Welldone You Have Completed this Quiz!"
+                        var audio = new Audio('finish.mp3');
+                        audio.play();      
                         op1.style.display="none";
                         op2.style.display="none";
                         op3.style.display="none";
@@ -73,12 +75,16 @@ var op4=document.getElementById('op4');
                          	this.score++;
                          	ele.className="correct";
                          	ele.innerHTML="Correct";
-                         	this.scoreCard();
+                           this.scoreCard();
+                           var audio = new Audio('correct.mp3');
+                           audio.play();
                          }
 
                          else{
                          	ele.className="wrong";
-                         	ele.innerHTML="Inorrect";
+                           ele.innerHTML="Inorrect";
+                           var audio = new Audio('incorrect.mp3');
+                           audio.play();
                          }
                 },
                 notClickAble:function(){
