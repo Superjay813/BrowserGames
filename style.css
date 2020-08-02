@@ -4,7 +4,6 @@ body {
     color: #055a8c;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -13,11 +12,9 @@ ul {
     padding: 10px;
     text-align: center;
 }
-  
 li {
     display: inline;
 }
-
 li a {
     color: white;
     font-size: 24px;
@@ -25,150 +22,124 @@ li a {
     padding: 5px;
     text-decoration: none;
 }
-
 li a:hover {
     color: lightgrey;
 }
-
 #navbar {
     padding: 5px;
 }
-
 #header {
     background-color: #055a8c;
     color: white;
     text-align: center;
     padding: 20px;
 }
-
 #subheading {
     margin: 20px;
 }
-
 #subheading a {
     color: #04507b;
     text-decoration: none;
 }
-
 #subheading a:hover {
     color: #0570ad;
     text-decoration: underline;
 }
-
 *{
     margin: 0px;
     padding: 0px;
 }
-
 .card{
     width: 20%;
     display: inline-block;
     box-shadow: 2px 2px 20px black;
-    border-radius: 5px; 
+    border-radius: 5px;
     margin-left: 4%;
     background-color: white;
 }
- 
 .card2{
     width: 30%;
     display: inline-block;
     box-shadow: 2px 2px 20px black;
-    border-radius: 5px; 
+    border-radius: 5px;
     margin-left: 35%;
     margin-right: 35%;
     background-color: white;
 }
-
 .card3{
     width: 80%;
     display: inline-block;
     box-shadow: 2px 2px 20px black;
-    border-radius: 5px; 
+    border-radius: 5px;
     margin-left: 10%;
     margin-right: 10%;
     background-color: white;
 }
-
 .card3, .card2 p{
     text-align: center;
 }
-
 /* image */
-
 .image img{
     width: 100%;
     height: 200px;
     border-top-right-radius: 5px;
-    border-top-left-radius: 5px; 
-    }
-
+    border-top-left-radius: 5px;
+}
 #img2 {
     width: 200px;
     height: 200px;
     margin-left: 20%;
     margin-right: 20%;
 }
-
 #img3 {
     width: 99%;
     height: 200px;
     margin-left: 0.5%;
     margin-right: 0.5%;
 }
-
 #img4 {
     width: 100%;
     height: 100%;
 }
-
 #img5 {
     width: 100%;
     height: 300px;
 }
-
 #imgplus {
     width: 99%;
     height: 200px;
     margin-left: 0.5%;
     margin-right: 0.5%;
 }
-
 #centertext {
     text-align: center;
 }
-
 /* image end */
-
-.title{ 
+.title{
     text-align: center;
-    padding: 10px; 
+    padding: 10px;
 }
-   
 h2{
     font-size: 20px;
 }
-   
 .des{
     padding: 3px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     margin: 20px;
 }
-
 .des2{
     padding: 3px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     text-align: center;
 }
-
 .des3 {
     padding: 10px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     text-align: center;
 }
- 
 /* button */
 #myBtn2 {
     background-color: #055a8c;
@@ -183,16 +154,13 @@ h2{
     cursor: pointer;
     transform: skew(-20deg);
 }
-
 #myBtn2:hover {
     background-color: #04507b;
 }
-
 #myBtn2 a{
     text-decoration: none;
     color: white;
 }
-
 #myBtn {
     background-color: #055a8c;
     width: 50%;
@@ -205,17 +173,14 @@ h2{
     cursor: pointer;
     transform: skew(-20deg);
 }
-
 #myBtn:hover {
     background-color: #04507b;
 }
-
 #myBtn a{
     text-decoration: none;
     color: white;
 }
 /* button end */
-
 #footer {
     left: 0;
     bottom: 0;
@@ -226,14 +191,13 @@ h2{
     padding-top: 20px;
     padding-bottom: 20px;
     margin-top: 25px;
- }
+}
+#charlink {
+    color: blue;
+    text-decoration: none;
+}
 
- #charlink {
-     color: blue;
-     text-decoration: none;
- }
-
- #myInput {
+#myInput {
     background-position: 10px 12px;
     background-repeat: no-repeat;
     font-size: 16px;
@@ -242,39 +206,94 @@ h2{
     padding-left: 10px;
     border: 1px solid #ddd;
     margin-bottom: 12px;
-  }
-  
-  #myUL {
+}
+#myUL {
     list-style-type: none;
     padding: 0;
     margin: 0;
-  }
-  
-  #myUL li a {
+}
+#myUL li a {
     border: 1px solid #ddd;
-    margin-top: -1px; /* Prevent double borders */
+    margin-top: -1px;
+   /* Prevent double borders */
     background-color: #f6f6f6;
     text-decoration: none;
     font-size: 18px;
     color: black;
     display: block;
-  }
-  
-  #myUL li a:hover:not(.header) {
+}
+#myUL li a:hover:not(.header) {
     background-color: #eee;
-  }
-
-  #bt {
-      background-color: #04507b;
-      border: none;
-      color: white;
-      font-size: 24px;
-      text-emphasis: bold;
-      padding: 5px;
-      text-decoration: none;
-  }
-
+}
+#bt {
+    background-color: #04507b;
+    border: none;
+    color: white;
+    font-size: 24px;
+    text-emphasis: bold;
+    padding: 5px;
+    text-decoration: none;
+}
 #bt:hover {
     color: lightgray;
 }
 
+table {
+    border-collapse: collapse;
+    width: 25%;
+    margin-left: 20px;
+}
+th {
+    background-color: lightgrey;
+    color: white;
+}
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+/* Popup container - can be anything you want */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* The actual popup */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 300px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 8px;
+    position: absolute;
+    z-index: 1;
+    top: 125%;
+    margin-left: -130px;
+  }
+  
+  
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
