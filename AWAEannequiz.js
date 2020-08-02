@@ -59,7 +59,7 @@ var op4=document.getElementById('op4');
                          	ele.className="correct";
                          	ele.innerHTML="Correct";
                            this.scoreCard();
-                           var audio = new Audio('correct.mp3');
+                           var audio = new Audio('correct(trim).mp3');
                            audio.play();
                          }
 
