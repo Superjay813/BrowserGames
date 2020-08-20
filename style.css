@@ -41,11 +41,6 @@ body {
   padding-right: 20px;
 }
 
-#achievements table {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 #nodot {
   text-decoration: underline;
   text-align: center;
