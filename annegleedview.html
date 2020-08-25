@@ -17,6 +17,67 @@
     <h1>Anne Gleed interiors</h1>
 </div>
 
+<div id="projects" style="background-color: white">
+    <br>
+    <div style="margin-left: 35px; text-align: left;  font-size: 1.2em">
+        <p>At: Anne Gleed Interior</p>
+        <p>Job: Fixing & updating there website</p>
+        <p>Using: Wix</p>
+        <p>More info and photos</p>
+</div>
+<br>
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Open Modal</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <img src="Untitled.png" style="width: 100%; margin-bottom: 10px;">
+    <img src="Untitled2.png" style="width: 100%;">
+  </div>
+
+</div>
+    <div id="changesbackgrounddark">
+            <br>
+            <div id="changesinvert">
+            <table style="margin-left: auto; margin-right: auto">
+                <tr>
+                    <th><p>Changes:<br>i have changed the colour and added more infomation onto the home page.</p></th>
+                </tr>
+            </table>
+            <br>
+            </div>
+            </div>
 </body>
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
 
 </html>
