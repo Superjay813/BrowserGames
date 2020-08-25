@@ -10,25 +10,33 @@
 <body>
 
     <div id="navbar">
-        <a style="font-size: 2em;" href="index.html">&larr;</a>
-    </div>
+        <a style="font-size: 1.8em;" href="index.html">&larr;</a>    </div>
 
 <div id="header">
     <h1>Anne Gleed interiors</h1>
 </div>
 
-<div id="projects" style="background-color: white">
+<div id="projects" style="background-color: white; padding-bottom: 10px">
     <br>
+    <h2 id="cvlink" style="text-align: left; margin-left: 35px;">My CV</h2>
     <div style="margin-left: 35px; text-align: left;  font-size: 1.2em">
         <p>At: Anne Gleed Interior</p>
         <p>Job: Fixing & updating there website</p>
         <p>Using: Wix</p>
         <p>More info and photos</p>
 </div>
-<br>
+<div id="changes">
+    <h2>Changes:</h2>
+    <p>i have changed the colour and added more infomation onto the home page.</p>
+</div>
+</div>
 <!-- Trigger/Open The Modal -->
-<button id="myBtn">Open Modal</button>
-
+<div id="openimagebackground">
+<br>
+<button id="openimage"><h3><b>View Images</b></h3></button>
+<p style="text-align: center; font-size: 1.2em">View the images from this project!</p>
+<br>
+</div>
 <!-- The Modal -->
 <div id="myModal" class="modal">
 
@@ -40,16 +48,13 @@
   </div>
 
 </div>
-    <div id="changesbackgrounddark">
-            <br>
-            <div id="changesinvert">
-            <table style="margin-left: auto; margin-right: auto">
-                <tr>
-                    <th><p>Changes:<br>i have changed the colour and added more infomation onto the home page.</p></th>
-                </tr>
-            </table>
-            <br>
-            </div>
+            <div id="contact">
+                <h2>Contact Me</h2>
+                <h3>Phone:</h3>
+                <p>07400 255548</p>
+                <h3>Email:</h3>
+                <p>jameswhitby813@gmail.com</p>
+                <br>
             </div>
 </body>
 <script>
@@ -57,7 +62,7 @@
     var modal = document.getElementById("myModal");
     
     // Get the button that opens the modal
-    var btn = document.getElementById("myBtn");
+    var btn = document.getElementById("openimage");
     
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
