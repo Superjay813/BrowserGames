@@ -29,34 +29,58 @@
         <p>Using: Wix</p>
         <p>More info and photos</p>
 </div>
-<div id="changes">
-    <h2>Changes:</h2>
-    <p>i have changed the colour and added more infomation onto the home page.</p>
-</div>
-</div>
-<!-- Trigger/Open The Modal -->
-<div id="openimagebackground">
-<br>
-<button id="openimage"><h3><b>View Images</b></h3></button>
-<p style="text-align: center; font-size: 1.2em">View the images from this project!</p>
-<br>
-</div>
-<!-- The Modal -->
-<div id="myModal" class="modal">
-
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <img src="Untitled.png" style="width: 100%; margin-bottom: 10px;">
-    <img src="Untitled.png" style="width: 100%; margin-bottom: 10px;">
-    <img src="Untitled.png" style="width: 100%; margin-bottom: 10px;">
-    <img src="Untitled.png" style="width: 100%; margin-bottom: 10px;">
-    <img src="Untitled.png" style="width: 100%; margin-bottom: 10px;">
-    <img src="Untitled.png" style="width: 100%; margin-bottom: 10px;">
-    <img src="Untitled2.png" style="width: 100%;">
-  </div>
 
 </div>
+<div id="slideshowbackground">
+<br>
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 2</div>
+      <img src="Untitled.png" style="width:100%">
+      <div class="text">Home page: Navbar and slideshow</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 2</div>
+      <img src="Untitled2.png" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    </div>
+    <br>
+</div>
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
             <div id="contact">
                 <h2>Contact Me</h2>
                 <h3>Phone:</h3>
