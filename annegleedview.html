@@ -13,7 +13,7 @@
 <body>
 
     <div id="navbar">
-        <a style="font-size: 2em;" href="index.html"><</a>    
+        <a style="font-size: 2em;" href="index.html"><</a>
     </div>
 
 <div id="header">
@@ -22,8 +22,9 @@
 
 <div id="projects" style=" font-size: 1.2em; background-color: white; padding-bottom: 10px">
     <br>
+    <h2 id="cvlink" style="text-align: left; margin-left: 35px;">Info</h2>
+    <hr style="margin-left: 30px; margin-right: 15px;">
     <div style="text-align: center;">
-        <h2>Info:</h2>
         <p>At: Anne Gleed Interior</p>
         <p>Job: Fixing & updating there website</p>
         <p>Using: Wix</p>
@@ -36,13 +37,11 @@
 <div class="slideshow-container">
 
     <div class="mySlides fade">
-      <div class="numbertext">1 / 2</div>
       <img src="Untitled.png" style="width:100%">
       <div class="text">Home page: Navbar and slideshow</div>
     </div>
     
     <div class="mySlides fade">
-      <div class="numbertext">2 / 2</div>
       <img src="Untitled2.png" style="width:100%">
       <div class="text">Home page: Info and links to other pages</div>
     </div>
@@ -51,36 +50,7 @@
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
     
     </div>
-    <br>
 </div>
-    <script>
-    var slideIndex = 1;
-    showSlides(slideIndex);
-    
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
-    
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
-    }
-    
-    function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("dot");
-      if (n > slides.length) {slideIndex = 1}    
-      if (n < 1) {slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";  
-      }
-      for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";  
-      dots[slideIndex-1].className += " active";
-    }
-    </script>
             <div id="contact">
                 <h2>Contact Me</h2>
                 <h3>Phone:</h3>
@@ -91,31 +61,32 @@
             </div>
 </body>
 <script>
-    // Get the modal
-    var modal = document.getElementById("myModal");
-    
-    // Get the button that opens the modal
-    var btn = document.getElementById("openimage");
-    
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-    
-    // When the user clicks the button, open the modal 
-    btn.onclick = function() {
-      modal.style.display = "block";
-    }
-    
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-      modal.style.display = "none";
-    }
-    
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-    }
-    </script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
 
 </html>
