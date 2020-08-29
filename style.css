@@ -188,10 +188,11 @@ h1, h2, #navbar{
   position: relative;
   margin: auto;
   color: white;
+  padding-top: 10px;
 }
 
 #slideshowbackground {
-  background-color: lightgrey;
+  background-color: black;
 }
 
 #slideshowbottemborder {
@@ -231,6 +232,10 @@ h1, h2, #navbar{
 
 /* Caption text */
 .text {
+  margin-top: 5px;
+  border-bottom: solid;
+  border-bottom-width: 10px;
+  border-bottom-color: black; 
   color: white;
   padding: 10px;
   font-size: 16px;
