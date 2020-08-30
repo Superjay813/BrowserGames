@@ -147,6 +147,7 @@ h1, h2, #navbar{
 #contact {
   background-color: #fad663;
   padding-top: 10px;
+  margin: 0px;
 }
 
 #contact p, h2, h3 {
