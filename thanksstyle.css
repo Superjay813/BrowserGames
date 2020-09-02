@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+body {
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #fad663;
+    display: -webkit-flex;
+    display: flex;
+    font-family: "Bitter", serif;
+}
+  
+/* general form styling */
+.container {
+    margin: 0 auto;
+}
+  
+h1 {
+    color: #fff;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: purple;
+}
