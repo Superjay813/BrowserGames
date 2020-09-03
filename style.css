@@ -344,3 +344,22 @@
     text-align: center;
     font-size: large;
 }
+
+#projectimage {
+  width: 100%;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  background-color: black;
+  opacity: 0.5;
+  padding: 5px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
