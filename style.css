@@ -1,0 +1,18 @@
+footer {
+    background-color: #6c757d;
+    color: white;
+    padding-left: 32px;
+    padding-bottom: 10px;
+  }
+  footer a {
+    color: white;
+    text-decoration: underline;
+  }
+  footer a:hover {
+    color: black;
+    text-decoration: underline;
+  }  
+
+  footer b {
+      font-size: 18px;
+  }
