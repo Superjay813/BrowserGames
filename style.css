@@ -1,39 +1,43 @@
+body {
+  background-color: red;
+}
+
 footer {
-    background-color: #6c757d;
-    padding-bottom: 35px;
-    padding-top: 35px;
-  }
-  footer a {
-    text-decoration: underline;
-    font-size: 20px;
-  }
-  footer a:hover {
+  background-color: #6c757d;
+  padding-bottom: 35px;
+  padding-top: 35px;
+}
+footer a {
+  text-decoration: underline;
+  font-size: 20px;
+}
+footer a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+footer b {
+    font-size: 18px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Georgia", serif;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+th {
+  background-color: #f1f1f1f1;
     color: black;
-    text-decoration: underline;
-  }
-
-  footer b {
-      font-size: 18px;
-  }
-
-  table {
-    border-collapse: collapse;
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: "Georgia", serif;
-  }
-
-  th, td {
-    padding: 8px;
-    text-align: center;
-    border-bottom: 1px solid #ddd;
-    border-top: 1px solid #ddd;
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-  }
-
-  th {
-    background-color: #f1f1f1f1;
-      color: black;
-  }
+}
