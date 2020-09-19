@@ -45,3 +45,14 @@ footer {
   #basicinfobackground {
     background-color: #fad663;
   }
+
+  #projectinfo {
+    margin-bottom: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #fad663;
+  }
+
+  #projectinfo h1 {
+    padding-top: 81.25px;
+  }
