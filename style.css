@@ -1,5 +1,5 @@
 footer {
-    background-color: #fad663;
+    background-color: #6c757d;
     padding-bottom: 35px;
     padding-top: 35px;
   }
@@ -10,24 +10,32 @@ footer {
   footer a:hover {
     color: black;
     text-decoration: underline;
-  }
+  }  
 
   footer b {
       font-size: 18px;
   }
 
   table {
+    border-collapse: collapse;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
     font-family: "Georgia", serif;
   }
-
+  
   th, td {
-
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
   }
-
+  
   th {
-
+    background-color: #f1f1f1f1;
+      color: black;
   }
 
   #headersection .jumbotron {
@@ -37,12 +45,12 @@ footer {
   #projectinfosection {
     margin-bottom: 0px;
     padding-top: 20px;
-    padding-bottom: 35px;
+    padding-bottom: 20px;
     background-color: white;
   }
 
   #projectinfosection img {
-    width: 100%;
+    width: 100%; 
     height: 325px;
     border: solid;
   }
@@ -50,13 +58,13 @@ footer {
   #reviewsection {
     margin-bottom: 0px;
     padding-top: 20px;
-    padding-bottom: 35px;
+    padding-bottom: 20px;
     background-color: #eee;
   }
 
   #imagesection {
     margin-bottom: 0px;
     padding-top: 20px;
-    padding-bottom: 35px;
+    padding-bottom: 20px;
     background-color: white;
   }
