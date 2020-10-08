@@ -1,49 +1,27 @@
-footer {
-  background-color: #6c757d;
-  padding-bottom: 35px;
-  padding-top: 35px;
+/* General */
+#sectionheading {
+  margin-left: 30px;
 }
 
-footer a {
-  text-decoration: underline;
-  font-size: 20px;
+#inquirebutton a {
+  color: #5bc0de;
 }
 
-footer a:hover {
-  color: black;
-  text-decoration: underline;
+#inquirebutton a :hover {
+  text-decoration: none;
+  color: white;
 }
 
-footer b {
-  font-size: 18px;
+#inquirebutton button {
+  color
 }
 
-table {
-  border-collapse: collapse;
-  width: 40%;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: "Georgia", serif;
-}
-
-th, td {
-  padding: 8px;
-  text-align: center;
-  border-bottom: 1px solid #ddd;
-  border-top: 1px solid #ddd;
-  border-left: 1px solid #ddd;
-  border-right: 1px solid #ddd;
-}
-
-th {
-  background-color: #f1f1f1f1;
-  color: black;
-}
-
+/* header */
 #headersection .jumbotron {
   background-color: #fad663;
 }
 
+/* index page */
 #projectinfosection {
   margin-bottom: 0px;
   padding-top: 20px;
@@ -64,33 +42,37 @@ th {
   background-color: #eee;
 }
 
-.collapsible {
-  background-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-
-.active, .collapsible:hover {
-  background-color: #555;
-}
-
-.content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: #f1f1f1;
-}
-
 /* project page */
 #projectreviewsection {
   margin-bottom: 0px;
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #eee;
+}
+
+#projectchangessection {
+  margin-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* footer */
+footer {
+  background-color: #6c757d;
+  padding-bottom: 35px;
+  padding-top: 35px;
+}
+
+footer a {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+footer a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+footer b {
+  font-size: 18px;
 }
