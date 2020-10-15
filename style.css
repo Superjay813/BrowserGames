@@ -3,19 +3,6 @@
   margin-left: 30px;
 }
 
-#inquirebutton a {
-  color: #5bc0de;
-}
-
-#inquirebutton a :hover {
-  text-decoration: none;
-  color: white;
-}
-
-#inquirebutton button {
-  color
-}
-
 /* header */
 #headersection .jumbotron {
   background-color: #fad663;
