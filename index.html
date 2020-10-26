@@ -23,6 +23,40 @@
 </head>
 
 <body>
+				  <!-- Modal -->
+				  <div class="modal fade" id="modalstart" role="dialog">
+            <div class="modal-dialog">
+  
+              <!-- Modal content-->
+              <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Contact Us</h4>
+              </div>
+              <div class="modal-body">
+                <form action="/action_page.php">
+                  <label for="fname">First Name:</label><br>
+                  <input type="text" id="fname" name="fname" value=""><br><br>
+                  <label for="lname">Company Name:</label><br>
+                  <input type="text" id="lname" name="lname" value=""><br><br>
+                  <label for="email">Enter your email:</label><br>
+                  <input type="email" id="email" name="email"><br><br>
+                  <input type="radio" id="male" name="gender" value="male">
+                  <label for="male">Male</label><br>
+                  <input type="radio" id="female" name="gender" value="female">
+                  <label for="female">Female</label><br>
+                  <input type="radio" id="other" name="gender" value="other">
+                  <label for="other">Other</label><br><br>
+                  <label for="homepage">Website (if you have one):</label><br>
+                  <input type="url" id="homepage" name="homepage"><br><br>
+                  <input type="submit" class="btn btn-primary btn-sm" value="Submit">
+                </form> 
+              </div>
+              <div class="modal-footer">
+                <button style="padding-bottom: 10px;" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+              </div>
+            </div>
+            </div>
   <nav class="navbar navbar-expand-lg navbar-light bg-secondary navbar-dark">
     <a class="navbar-brand" href="index.html">James W Studio</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,7 +98,7 @@
   </div>
 
   <div class="text-nowrap" style="width: 8rem;" id="projects">
-    <h2 id="sectionheading" class="text-muted">Projects</h2>
+    <h2 id="sectionheading" class="text-muted ">Projects</h2>
   </div>
   </div>
   <section id="gallery">
@@ -83,7 +117,7 @@
         </div>
         <div class="col-lg-6 mb-6">
           <div class="card border border border-dark" id="timsproject">
-            <img src="Sustainability.png" alt="" style="width: 100%; height: 325px;" class="card-img-top">
+            <img src="videodesignanne.png" alt="" style="width: 100%; height: 325px;" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Video Design <span class="badge badge-secondary">Anne Gleed Interior</span></h5>
 			  <p class="card-text">We have done work for Anne redesigning her website as she move towards sustainability within her business aswell as more general improvements to how her website looks professional.</p>
@@ -337,7 +371,11 @@
   <footer class="text-center" style="color: white;">
     <h5>“The only way to do great work is to love what you do.” – Steve Jobs</h5>
   </footer>
-
+  <script type="text/javascript">
+    $(window).on('load',function(){
+        $('#modalstart').modal('show');
+    });
+</script>
 </body>
 
 </html>
