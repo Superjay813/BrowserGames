@@ -5,9 +5,10 @@
 @import "buttons.scss";
 @import "grid.scss";
 
+@import "section/navbarSection.scss";
 @import "section/headerSection.scss";
 @import "section/ctaSection.scss";
-
+@import "section/aboutSection.scss";
 // Imports
 
 // General
@@ -15,11 +16,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: $primary;
     margin: 0px;
+    overflow-y: scroll;
 }
 
-* {
-    box-sizing: border-box;
-  }
 // General
 
 
