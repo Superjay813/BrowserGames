@@ -5,4 +5,22 @@
     h2 {
         text-transform: uppercase;
     }
+    #fakeImage {
+        max-width: 50%;
+        height: auto;
+    }
+    .image1 {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        border: 1px solid #000000;
+        z-index: 1;
+      }
+      .image2 {
+        position: absolute;
+        top: 25px;
+        left: 50%;
+        border: 1px solid #000000;
+        z-index: 2;
+      }
 }
