@@ -1,11 +1,12 @@
-const subTitles = ["arrays", "functions"];
+const subTitlesBefore = ["arrays", "functions", "Algebra", "DOM", "Cookies"];
+const subTitles = subTitlesBefore.map(topic => topic.toLowerCase());
 
 let list = "";
 subTitles.forEach(createList);
 document.getElementById("list").innerHTML = list;
 
 function createList(value, index, array) {
-    list += "<a href='" + value + ".html'>" + "<label id='subTitle'>" + value + " </label><a/>" + "<input type='checkbox' id='check" + value + "'><br>"; 
+    list += "<div><input type='checkbox' id='check" + value + "'><a href='" + value + ".html'>" + "<label id='subTitle'>" + value + " </label><a/>" + "</div>"; 
 }
 
 

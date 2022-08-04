@@ -1,3 +1,7 @@
+body {
+  margin: 0px;
+}
+
 #modal {
   display: none;
   position: fixed;
@@ -10,10 +14,29 @@
   padding: 20px;
 }
 
-#subTitle {
+#list label {
+  cursor: pointer;
   text-transform: capitalize;
+  color: black;
 }
 
-label:hover {
-  cursor: pointer;
+#list label:hover {
+  text-decoration: underline;
+}
+
+#list a {
+  text-decoration: none;
+}
+
+#list div {
+  background-color: rgb(255, 255, 255);
+  padding: 20px 20px;
+}
+
+#list div:nth-child(odd) {
+  background-color: rgb(225, 225, 249);
+}
+
+#list input {
+  margin-right: 20px;
 }
