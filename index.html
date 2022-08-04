@@ -1,41 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>James Whitbys Blog</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inika">
-<link rel="stylesheet" href="styling/style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<main class="grid-wrap">
-    
-    <div id="navbar">
-        <div>
-            <button id="navbarBrand"><h3>James Whitby's Blog</h3></button>
-        </div>
-    </div>
+<h1>Welcome to me website!</h1>
+<button onclick="modal()">Open Modal</button>
 
-    <div class="grid" id="header">
-        <div>
-            <h1>Welcome, I am a Web Designer and this is my design blog!!!</h1>
-        </div>
-        <div>
-            <h3>“Its not the world wide web without designing for all”<span> - Me, James Whitby</span></h3>
-        </div>
-    </div>
+<div id="modal">
+    <h2>James Whitby</h2>
+    <hr>
+    <p>This is my modal content</p>
+    <button onclick="modal()">Close Modal</button>
+</div>
 
-    <div id="ctaSection">
-        <a><button id="primary">Read My Blog</button></a>
-    </div>
+<p id="list"></p>
 
-    <div id="about">
-        <h2>Learn More about me</h2>
-        <!-- <img id="fakeImage" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Flag_of_Devon.svg/1200px-Flag_of_Devon.svg.png" />
-        <img id="fakeImage" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Flag_of_Devon.svg/1200px-Flag_of_Devon.svg.png" /> -->
-        <img class="image1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Flag_of_Devon.svg/1200px-Flag_of_Devon.svg.png" />
-        <img class="image2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Flag_of_Devon.svg/1200px-Flag_of_Devon.svg.png" />
-    </div>
+<script src="cookies.js"></script>
 
-</main>
+<script>
+function modal() {
+    const modalDisplay = document.getElementById("modal").style.display;
+    if (modalDisplay == "block") {
+        document.getElementById("modal").style.display = "none";
+    } else {
+        document.getElementById("modal").style.display = "block";
+    }
+}
+</script>
+
 </body>
 </html>
