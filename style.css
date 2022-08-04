@@ -13,3 +13,7 @@
 #subTitle {
   text-transform: capitalize;
 }
+
+label:hover {
+  cursor: pointer;
+}
