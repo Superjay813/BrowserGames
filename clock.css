@@ -1,0 +1,13 @@
+body {
+    margin: 0px;
+    font-family: "Fira+Code", sans-serif;
+}
+
+#time {
+
+    text-align: center;
+    font-size: 40px;
+    color: limegreen;
+    background-color: black;
+    padding: 20px 20px;
+}

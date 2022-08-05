@@ -18,7 +18,6 @@ checkBox.addEventListener('change', function() {
   if (checkBox.checked == true) {
     // console.log("Checkbox is checked.." + value);
     document.cookie = "check" + value + "=true; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/;";
-    console.log(value);
   } else {
     // Delete cookie
     document.cookie = "check" + value + "=true; expires=Fri, 31 Dec 2013 23:59:59 GMT; path=/;";
